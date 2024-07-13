@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    font-size: 23px;
+    position: relative;
+    top: 8px;
+    left: 45px;
+}
+.nav {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 240px;
+    bottom: 12px;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Palanquin Dark", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+      
+}
+
+.nav ul li a:hover {
+    color: rgb(250, 184, 0);
+}
+.header{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 30px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.shop h1{
+    color: azure;
+    font-size: 56px;
+}
+.shop p{
+    color: gray;
+    font-size: 23px;
+    position: relative;
+    left: 10px;
+}
+.shop h1, p{
+        font-family: "Palanquin Dark", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+     
+        font-family: "Palanquin Dark", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      
+      
+      
+        font-family: "Palanquin Dark", sans-serif;
+        
+        font-style: normal;
+      
+    
+        font-family: "Palanquin Dark", sans-serif;
+    
+        font-style: normal;
+      
+    
+}
+.kolica{
+   position: relative;
+   bottom: 42px;
+   right: 35px;
+   float: right;
+   color: black;
+   display: flex;
+   width: 80px;
+   justify-content: space-between;
+   border: solid 1px black;
+   padding: 10px;
+   border-radius: 10px;
+}
+.kolica img{
+    width: 19px;
+}
+.kolica p:nth-child(3){
+    color: white;
+    background-color: black;
+    border-radius: 30%;
+    padding-left: 4px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+.produktet{
+    width: 90%;
+    position: relative;
+    left: 70px;
+    top: 50px;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.produkt1{
+    width: 210px;
+    height: 300px;
+    border: solid 1px rgb(220, 220, 220);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gjp1{
+    width: 100%;
+    height: 125px;
+    background-color: rgb(217, 217, 217);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gjp2{
+    width: 100%;
+    height: 200px;
+}
+.produktett{
+    width: 90%;
+    position: relative;
+    left: 70px;
+    top: 90px;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gjp1 span{
+    border: solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+.gjp1 p{
+    position: relative;
+    left: 54px;
+    top: 60px;
+    font-size: 23px;
+}
+.gjp2 h2, p{
+  position: relative;
+  top: 20px;
+}
+.gjp2 h2{
+    position: relative;
+    left: 30px;
+}
+.gjp2 p{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.gjp2 span{
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+} 
+.imgs img{
+  width: 20px;  
+}
+.imgs{
+    position: relative;
+    left: 50px;
+    bottom: 13px;
+}
+.eightdollar{
+    position: relative;
+    margin-left: 60px;
+    margin-top: -46px;
+}

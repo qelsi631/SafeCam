@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(rugova.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+.navbar {
+    position: relative;
+    background-color: rgb(87, 107, 87);
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    height: 20px;
+}
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 97%;
+    height: 20px;
+    background-color: rgb(87, 107, 87);
+    z-index: 1;
+}
+.navbar ul, li, a.fixed{
+    position: relative;
+    bottom: 11px;
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    position: relative;
+    right: 60px;
+    
+}
+
+.navbar nav ul li a:hover {
+    color: lightgrey;
+}
+section{
+    position: relative;
+    top: 250px;
+    color: white;
+    left: 20px;
+}
+section h1{
+    /* Welcome to KOSOVO */
+
+
+width: 464px;
+height: 48px;
+left: 29px;
+
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+}
+section p{
+    /* Your next destination */
+
+
+width: 241px;
+height: 29px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+aside{
+    float: right;
+    color: white;
+    position: relative;
+    right: 20px;
+    top: 175px;
+}
+aside button{
+    background: none;
+    border: soli 1px white;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+
+}
+aside h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+.asides{
+    position: relative;
+    bottom: 10px;
+    right: 7px;
+width: 160px;
+height: 55px;
+background: #D9D9D9;
+opacity: 0.3;
+border-radius: 50px;
+}
+aside p{
+    position: relative;
+    top: 27px;
+    font-size: 19px;
+    left: 33px;
+    font-weight: bold;
+}
+
+.asides:hover{
+    opacity: 60%;
+}
+
+.main{
+    width: 100%;
+    height: 670px;
+    background-color: #94A094;
+}
+.why{
+    color: #2A3F2E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.why p{
+    position: relative;
+    top: 10px;
+}
+.images img{
+    width: 350px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    width: 90%;
+    left: 60px;
+}
+.culture{
+    color: #3D463D;
+    display: flex;
+    position: relative;
+    left: 180px;
+    justify-content: space-between;
+    width: 76%;
+    top: 190px;
+}
+
+.discover{
+    /* Rectangle 8 */
+
+position: absolute;
+width: 325px;
+height: 87px;
+left: 467px;
+top: 1305px;
+
+background: rgb(87, 107, 87);
+border-radius: 30px;
+}
+.dizkover{
+    /* Discover */
+
+position: absolute;
+width: 143px;
+height: 39px;
+left: 571px;
+top: 1328px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.content{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 1287px;
+height: 475px;
+left: -7px;
+top: 1420px;
+
+background: #66715D;
+
+}
+.sayabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 65px;
+}
+.sayabout h1{
+    /* What they say about us */
+
+
+width: 621px;
+height: 76px;
+left: 330px;
+top: 1571px;
+
+font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.sayabout p{
+    /* How can I begin to describe my time with Prevu... It was simply life-changing! I always imagined that Kosovo would be a breathtaking destination, but thanks to Prevu, I was able to not just experience the culture, but have once-in-a-lifetime memories. I got so much more than I ever anticipated from my holiday.- Alice Bloomberg */
+position: relative;
+top: 30px;
+width: 831px;
+height: 292px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+}
+.ista{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 1298px;
+height: 710px;
+left: -10px;
+top: 1894px;
+
+background: #94A094;
+
+}
+.ista h1{
+    /* Follow us on Instagram */
+
+
+width: 665px;
+height: 144px;
+position: relative;
+left: 400px;
+top: 30px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 144px;
+/* identical to box height */
+
+color: #2C402E;
+
+
+}
+.images2 img{
+    width: 392px;
+    height: 275px;
+}
+.images2{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    position: relative;
+    left: 25px;
+    top: 100px;
+}
+.prevuu{
+    /* Rectangle 10 */
+
+
+width: 329px;
+height: 77px;
+position: relative;
+left: 470px;
+top: 170px;
+background: #66715D;
+mix-blend-mode: plus-darker;
+border-radius: 50px;
+
+}
+.prevus{
+    /* @PREVU_TRAVEL */
+
+
+width: 264px;
+height: 42px;
+position: relative;
+left: 500px;
+top: 110px;
+font-family: 'Imprima';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 42px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.subscribe{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 1287px;
+height: 475px;
+left: -10px;
+top: 2604px;
+
+background: #66715D;
+
+}
+.abones{
+    width: 424px;
+    position: relative;
+    left: 60px;
+    top: 160px;
+    color: white;
+    font-family: sans-serif;
+}
+
+form{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+    top: 100px;
+}
+input{
+    /* Rectangle 12 */
+
+
+width: 392px;
+height: 38px;
+left: 846px;
+top: 2857px;
+
+background: #D9D9D9;
+
+}
+::placeholder{
+    position: relative;
+    left: 40px;
+}
+.submit{
+    /* Rectangle 13 */
+
+box-sizing: border-box;
+
+position: relative;
+top: 180px;
+width: 109px;
+height: 34px;
+left: 853px;
+
+opacity: 0.1;
+border-bottom: 3px solid #FFFFFF;
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 60px;
+
+}
+.subi{
+    color: aliceblue;
+    float: right;
+    position: relative;
+    top: 150px;
+    left: 38px;
+}
+.footer{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 1287px;
+height: 312px;
+left: -10px;
+top: 3079px;
+
+background: #94A094;
+
+}
+.footer h1{
+width: 145px;
+height: 66px;
+position: relative;
+left: 70px;
+top: 100px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+/* identical to box height */
+
+color: #3B4A38;
+
+
+}
+.aboutsf{
+    /* About Us */
+
+position: absolute;
+width: 80px;
+height: 27px;
+left: 775px;
+top: 85px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+
+color: #3F4F41;
+
+
+}
+.aboutsf2{
+    position: absolute;
+width: 200px;
+height: 27px;
+right: 15px;
+top: 85px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+
+color: #3F4F41;
+
+}
+.socials img{
+    width: 30px;
+}
+.socials{
+    float: right;
+    position: relative;
+    right: 120px;
+    top: 100px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
